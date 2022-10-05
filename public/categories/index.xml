@@ -1,0 +1,52 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+	<title>Dulguun Gantumur</title>
+	<link>http://example.org/categories/</link>
+	<description>Recent content in Categories on Dulguun Gantumur</description>
+	<generator>Hugo -- gohugo.io</generator>
+	<language>en-us</language>
+    
+        <atom:link href="http://example.org/categories/index.xml" rel="self" type="application/rss+xml" />
+	
+	
+	<item>
+		<title>Asian</title>
+		<link>http://example.org/blog/asian/</link>
+		<pubDate>Sun, 02 Oct 2022 16:05:55 -0400</pubDate>
+		
+		<guid>http://example.org/blog/asian/</guid>
+		<description></description>
+	</item>
+	
+	<item>
+		<title>Contact Me</title>
+		<link>http://example.org/contact-me/</link>
+		<pubDate>Sun, 02 Oct 2022 15:53:31 -0400</pubDate>
+		
+		<guid>http://example.org/contact-me/</guid>
+		<description>&lt;p&gt;Email: &lt;a href=&#34;mailto:dulguun571@gmail.com&#34;&gt;dulguun571@gmail.com&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Instagram: &lt;a href=&#34;instagram.com/dunguum&#34;&gt;dunguum&lt;/a&gt;&lt;/p&gt;
+</description>
+	</item>
+	
+	<item>
+		<title>About</title>
+		<link>http://example.org/about/</link>
+		<pubDate>Sun, 02 Oct 2022 15:51:15 -0400</pubDate>
+		
+		<guid>http://example.org/about/</guid>
+		<description>&lt;h1 id=&#34;dulguun-gantumur&#34;&gt;Dulguun Gantumur&lt;/h1&gt;
+&lt;p&gt;A 21 year old IR student at George Mason University interested in all things ranging from linguistics, obscure phiosophy, and Central Asia.&lt;/p&gt;
+&lt;h2 id=&#34;languages&#34;&gt;Languages&lt;/h2&gt;
+&lt;p&gt;I currently speak English, Mongolian,  Mandarin Chinese fluency, and activelylearning Azerbaijani. In the past I have studied Esperanto, Persian, and Hungarian. I plan to learn Russian after Azerbaijani.&lt;/p&gt;
+&lt;p&gt;I participated in the Critical Languages Scholarship program to go to Taiwan to study Mandarin but largely undertook self-study beforehand, as I am currently doing so with Azerbaijani.&lt;/p&gt;
+&lt;h2 id=&#34;philosophy&#34;&gt;Philosophy&lt;/h2&gt;
+&lt;p&gt;My current philosophical interests are in nationalism, ideology, identity, and communist theory. Through understanding communism, I wish to investigate how it shape political thought in current communist countries as well as common political discourse around the world.&lt;/p&gt;
+&lt;p&gt;For the former, I am the most familiar with &amp;ldquo;Socialism with Chinese Characteristics&amp;rdquo; but hope to learn how the Soviets organized their state later. For the latter, communist critiques of the current world system and especially the United States is notable, I seek to understand these critiques and how citizens are influenced by them.&lt;/p&gt;
+&lt;h2 id=&#34;central-asia&#34;&gt;Central Asia&lt;/h2&gt;
+&lt;p&gt;I regard the country of my birth, Mongolia, to be Central Asian, and seek to understand Mongolia&amp;rsquo;s significance to Central Asia and vice versa. Inquiry into these topics has brought my previous interests of linguistics and philosophy into synthesis which I will be sharing through my posts here and into actual research papers.&lt;/p&gt;
+</description>
+	</item>
+	
+	</channel>
+</rss>
