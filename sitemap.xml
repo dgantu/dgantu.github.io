@@ -2,40 +2,40 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://monoparallax.github.io/posts/</loc>
+    <loc>/posts/</loc>
     <lastmod>2022-10-02T16:05:55-04:00</lastmod>
   </url><url>
-    <loc>https://monoparallax.github.io/tags/central-asia/</loc>
+    <loc>/tags/central-asia/</loc>
     <lastmod>2022-10-02T16:05:55-04:00</lastmod>
   </url><url>
-    <loc>https://monoparallax.github.io/</loc>
+    <loc>/</loc>
     <lastmod>2022-10-02T16:05:55-04:00</lastmod>
   </url><url>
-    <loc>https://monoparallax.github.io/tags/east-asia/</loc>
+    <loc>/tags/east-asia/</loc>
     <lastmod>2022-10-02T16:05:55-04:00</lastmod>
   </url><url>
-    <loc>https://monoparallax.github.io/tags/identity/</loc>
+    <loc>/tags/identity/</loc>
     <lastmod>2022-10-02T16:05:55-04:00</lastmod>
   </url><url>
-    <loc>https://monoparallax.github.io/tags/mongolia/</loc>
+    <loc>/tags/mongolia/</loc>
     <lastmod>2022-10-02T16:05:55-04:00</lastmod>
   </url><url>
-    <loc>https://monoparallax.github.io/posts/mongolian/</loc>
+    <loc>/posts/mongolian/</loc>
     <lastmod>2022-10-02T16:05:55-04:00</lastmod>
   </url><url>
-    <loc>https://monoparallax.github.io/tags/</loc>
+    <loc>/tags/</loc>
     <lastmod>2022-10-02T16:05:55-04:00</lastmod>
   </url><url>
-    <loc>https://monoparallax.github.io/tags/us/</loc>
+    <loc>/tags/us/</loc>
     <lastmod>2022-10-02T16:05:55-04:00</lastmod>
   </url><url>
-    <loc>https://monoparallax.github.io/contact-me/</loc>
+    <loc>/contact-me/</loc>
     <lastmod>2022-10-02T15:53:31-04:00</lastmod>
   </url><url>
-    <loc>https://monoparallax.github.io/tags/personal/</loc>
+    <loc>/tags/personal/</loc>
     <lastmod>2022-10-02T15:53:31-04:00</lastmod>
   </url><url>
-    <loc>https://monoparallax.github.io/about/</loc>
+    <loc>/about/</loc>
     <lastmod>2022-10-02T15:51:15-04:00</lastmod>
   </url>
 </urlset>
