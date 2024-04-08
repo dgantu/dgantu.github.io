@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Manchu on Dulguun Gantumur</title>
+    <link>http://localhost:1313/tags/manchu/</link>
+    <description>Recent content in Manchu on Dulguun Gantumur</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 31 Mar 2024 18:39:03 -0400</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/manchu/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lost Mongolic Numbers</title>
+      <link>http://localhost:1313/posts/lost_mongolian_numbers/</link>
+      <pubDate>Sun, 31 Mar 2024 18:39:03 -0400</pubDate>
+      <guid>http://localhost:1313/posts/lost_mongolian_numbers/</guid>
+      <description>Despite Mongolian being a relatively young language family, there are a surprising amount of archaisms and innovations one can spot even in basic vocabulary such as numberals. Only with recent findings in the field these numerals&amp;rsquo; history are beginning to be understood, along with data from neighboring languages. The biggest aid has been the deciphering of Khitan, a sister language to Mongolic, which helps reconstruct a deeper layer of Mongolic-Khitan languages (referred to also as Serbi-Mongolic).</description>
+    </item>
+  </channel>
+</rss>
