@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html><head>
+<title>Lost Mongolic Numerals</title>
+
+
+
+
+<meta charset="utf-8">
+<meta name="X-UA-Compatible" content="IE=edge">
+<meta name="google-site-verification" content="">
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+<meta content="telephone=no" name="format-detection">
+<meta name="description" content="">
+<meta name="renderer" content="webkit">
+<meta name="theme-color" content="#ffffff">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+      <script src="/js/toc.js"></script>
+    
+    <link type="text/css" rel="stylesheet" href="/vendor/css/bootstrap.min.css">
+
+<link rel="stylesheet" href="/scss/dark-mode.min.cb53f1bee2b8900cb4f082afbf00175d6618f281cf9a2fe8619e3b52d20b5721.css" integrity="sha256-y1PxvuK4kAy08IKvvwAXXWYY8oHPmi/oYZ47UtILVyE=" media="screen">
+
+
+<link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Material+Icons">
+
+
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/katex.min.css" integrity="sha384-RZU/ijkSsFbcmivfdRBQDtwuwVqK7GMOw6IMvKyeWL2K5UAlyp6WonmB8m7Jd0Hn" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/katex.min.js" integrity="sha384-pK1WpvzWVBQiP0/GjnvRxV4mOb0oxFuyRxJlk6vVw146n3egcN5C925NCP7a7BY8" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/contrib/auto-render.min.js" integrity="sha384-vZTG03m+2yp6N6BNi5iM4rW4oIwk5DfcNdFfxkk9ZWpDriOkXX8voJBFrAO7MpVl" crossorigin="anonymous"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement(document.body, {
+          
+          
+          delimiters: [
+              {left: '$$', right: '$$', display: true},
+              {left: '$', right: '$', display: false},
+              {left: '\\(', right: '\\)', display: false},
+              {left: '\\[', right: '\\]', display: true}
+          ],
+          
+          throwOnError : false
+        });
+    });
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body>
+    	<div id="app"><div class="single-column-drawer-container" id="drawer"
+     v-bind:class="{ 'single-column-drawer-container-active': isDrawerOpen }">
+    <div class="drawer-content">
+        <div class="drawer-menu">
+            
+            
+            
+                
+                
+                
+                    
+                
+                
+                
+                <a class="a-block drawer-menu-item active" href="/posts">
+                    Posts
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/tags">
+                    Tags
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/research">
+                    Research
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/about">
+                    About
+                </a>
+                
+            
+            
+            <div class="toc">
+
+
+	<div class="toc-content">
+	
+		
+		
+		
+		<center>- CATALOG -</center>
+		
+		
+		<ul>
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%c7%b0ir---two" class="nav-ǰir---two">
+									*ǰir - ’two&#39;
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#nil---six" class="nav-nil---six">
+									*nil - ‘six’
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#-one" class="nav--one">
+									(?) ‘one’
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#-nine" class="nav--nine">
+									(?) ’nine’
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#sources" class="nav-sources">
+									Sources
+								</a>
+							</li>
+						
+						
+					
+				
+			
+		</ul>
+	</div>
+
+</div>
+            
+        </div>
+    </div>
+</div>
+<transition name="fade">
+    <div id="drawer-mask" v-bind:class="{ 'single-column-drawer-mask': mounted }" v-if="isDrawerOpen" v-on:click="toggleDrawer"></div>
+</transition>
+<nav id="navBar" class="navbar sticky-top navbar-light single-column-nav-container">
+    <div id="navBackground" class="nav-background"></div>
+    <div class="container container-narrow nav-content">
+        <button id="nav_dropdown_btn" class="nav-dropdown-toggle" type="button" v-on:click="toggleDrawer">
+            <i class="material-icons">
+                menu
+            </i>
+        </button>
+        <a id="navTitle" class="navbar-brand" href="https://dulguun.xyz/">
+            Dulguun Gantumur
+        </a>
+        
+        <button type="button" class="nav-darkmode-toggle" id="darkModeToggleButton2">
+            <i class="material-icons" id="darkModeToggleIcon2">
+                dark_mode
+            </i>
+        </button>
+        
+    </div>
+</nav>
+<div class="single-column-header-container" id="pageHead"
+     v-bind:style="{ transform: 'translateZ(0px) translateY('+.3*scrollY+'px)', opacity: 1-navOpacity }">
+    <a href="https://dulguun.xyz/">
+        <div class="single-column-header-title">Dulguun Gantumur</div>
+        
+
+    </a>
+</div>
+
+            <div id="content">
+                <div id="streamContainer" class="stream-container">
+
+    <div class="post-list-container post-list-container-shadow">
+        <div class="post">
+            
+            
+            
+
+            <div class="post-head-wrapper-text-only"
+                
+            >
+                <div class="post-title">
+                    Lost Mongolic Numerals
+                    
+                    <div class="post-meta">
+                        
+                        <time itemprop="datePublished">
+                            2024-04-08 18:39
+                        </time>
+                        
+
+                        
+
+                        
+                            <i class="material-icons" style="">label</i>
+                            
+                                <a href="/tags/mongolian">Mongolian</a>
+                                &nbsp;
+                            
+                                <a href="/tags/linguistics">linguistics</a>
+                                &nbsp;
+                            
+                                <a href="/tags/manchu">Manchu</a>
+                                &nbsp;
+                            
+                                <a href="/tags/khitan">Khitan</a>
+                                &nbsp;
+                            
+                        
+                        
+                    </div>
+                </div>
+            </div>
+            
+            <div class="post-body-wrapper">
+                
+                <div class="post-body" v-pre>
+                
+                    <p>Despite Mongolic being a relatively young language family, there are a
+surprising amount of archaisms and innovations one can spot even in basic vocabulary
+such as numerals. With recent findings in the field, supported by data from neighboring languages,
+these numerals&rsquo; history are beginning to be understood.
+The biggest aid has been the deciphering of Khitan, a language of a sister branch to Mongolic,
+which helps reconstruct a deeper layer of Mongolic-Khitan languages (referred
+to also as Serbi-Mongolic). But the study of the Tungusic languages, which have
+had extensive contact with Para-Mongolic languages, also provides some clues
+as to what these innovations may have replaced. Jurchen (among others) borrowings of Mongolic
+teen numerals from 11-19 are especially useful into reconstructing archaic numerals lost to
+modern Mongolic. Here I discuss Mongolic numbers which studies seem to suggest
+could have looked very different in the past.</p>
+<h1 id="ǰir---two">*ǰir - &rsquo;two'</h1>
+<p>The numeral for &rsquo;two&rsquo; in Mongolic languages in reconstructed as &lsquo;<em>*koyar</em>&rsquo;,
+whence modern Mongolian &ldquo;хоёр&rdquo;. This numeral was already suspected of being an innovation
+because of its &lsquo;aberrant&rsquo; shape, as it is the only Mongolic numeral to not have the &lsquo;unstable&rsquo;
+or &lsquo;fleeting&rsquo; <em>*/n</em>. Its root <em>*ko-</em> is present as a paradigm meaning &ldquo;two&rdquo; in many words
+such as in</p>
+<blockquote>
+<p><em>*kos</em> &lsquo;pair&rsquo;, <em>*koli-</em> &rsquo;to mix&rsquo;, <em>*kolbo-</em> &rsquo;to connect&rsquo;, <em>*koč</em> &rsquo;nickname&rsquo; (second name)</p>
+</blockquote>
+<p><em>*kos</em> is present in Turkic as well, so if it is indeed a loanword,
+it seems to have been indigenized into the present paradigm.</p>
+<p>On the other hand, the reconstruction of the numeral &rsquo;two&rsquo; in Khitan is glossed as <em>*čur</em>
+~ <em>*ǰur</em>. The argument for this being the original numeral for the &rsquo;two&rsquo; is
+supported by the fact that the word &lsquo;ǰirin&rsquo; is actually present in the Secret
+History of the Mongols, used for female beings. Internally,
+the root <em>*ǰi-</em> can still be found in terms such as</p>
+<blockquote>
+<p><em>*ǰitüxer</em> &lsquo;second (wife)&rsquo;, <em>*ǰirmüsün</em> &lsquo;pregnant&rsquo;, and possibly <em>*ǰisü-</em> &rsquo;to cut&rsquo;</p>
+</blockquote>
+<p>This is supported by Tungusic sources as well such as in the Jurchen borrowing
+<em>*ǰir.xon</em> &rsquo;twelve&rsquo; &lt; **ǰir &rsquo;two&rsquo; + <em>*-xon</em> &lsquo;-teen&rsquo;. If <em>*ǰir</em> is truly
+the earlier numeral for &rsquo;two&rsquo; then it may suggest an even earlier borrowing
+into Proto-Tungusic where the ordinal &rsquo;two&rsquo; is reconstructed as <em>*ʒȫr</em>. But this
+could easily be chalked up to coincidence.</p>
+<p>Additional data from Alchuka, a Tungusic language which did not go through
+palatalization <em>ti-</em> &gt; <em>či-</em>, suggests that an even earlier form may have been
+<em>*tir</em>, as its &rsquo;twelve&rsquo; numeral is <em>*tirkon</em>. This lines up well with the
+theory that Mongolic underwent a similar palatalization of its own, as
+suggested by <em>*či</em> (<em>*ti?</em>) &lsquo;you (singular)&rsquo; and <em>*ta</em> &lsquo;you (plural)&rsquo;, compared with
+the <em>*bi</em> &lsquo;I&rsquo; and <em>*ba</em> &lsquo;we&rsquo; paradigm.</p>
+<h1 id="nil---six">*nil - &lsquo;six&rsquo;</h1>
+<p>The current reconstructed Proto-Mongolic numeral for &lsquo;six&rsquo; is <em>*ǰirguxan</em>.
+This numeral is considered to be a compound of the aforementioned archaic
+<em>*ǰir-</em> and <em>*gu(r)-</em> &rsquo;three&rsquo;, leaving the original numeral unknown.
+While unfortunately the Khitan numeral for &lsquo;six&rsquo; is yet to be
+deciphered, in Jurchen, the number &lsquo;sixteen&rsquo; is reconstructed as <em>*nilhun</em>. This suggests
+that the numeral that **ǰirguxan replaced may have been <em>*nil</em> &lsquo;six&rsquo;. Other
+evidence from Tungusic supports this theory, for example in Manchu, the term
+for &lsquo;sixteenth of the first month&rsquo; is &rsquo;niolhun&rsquo;.</p>
+<p>Because the reading of the Khitan numeral for &lsquo;six&rsquo; is unknown, <em>*nil</em> or <em>*nir</em>
+is considered as a possible reading. The presence of -o- in Manchu suggests
+the possibility of an earlier diphthong in the numeral as well.</p>
+<p>While this seems an elegant theory, it is made difficult by the Mongolic numeral
+<em>*ǰiran</em> &lsquo;sixty&rsquo;, which seems to suggest <em>*ǰir-</em> as the root for &lsquo;six&rsquo; instead.
+Otherwise, <em>*ǰiran</em> should mean &rsquo;twenty&rsquo; with <em>*ǰir-</em> &rsquo;two&rsquo; + <em>*-An</em>, a decade suffix.
+If this too is an innovation modeled after <em>*ǰirguxan</em> then it suggests an unknown &lsquo;sixty&rsquo;
+numeral.</p>
+<h1 id="-one">(?) &lsquo;one&rsquo;</h1>
+<p>The reconstruction of &lsquo;one&rsquo; in Proto-Mongolic is <em>*niken</em>. But this numeral does not
+seem to have a cognate in any Para-Mongolic words or Tungusic borrowings. While the
+Khitan cardinal &lsquo;one&rsquo; is unknown, the ordinal &lsquo;one&rsquo; is read as <em>m.as.qu</em> leading to
+some suggestions of <em>*mas</em> as &lsquo;one&rsquo;. This is furthermore connected to the first element
+of the Jurchen loan <em>*omšo</em> &rsquo;eleven&rsquo;, leading to conclusions that either <em>*mas</em> or <em>*Vmš</em> is
+the metathesized form of the other. The single instance of Alchuka <em>kɔnsï</em> &rsquo;eleven&rsquo;
+complicated this analysis further if it is not a spelling a mistake and a genuine
+preservation of an archaic pronunciation. If genuine, it could allow for the
+analysis of the first element as indicating a -teen numeral, and <em>|</em>-so* instead
+would be the element meaning &lsquo;one&rsquo;.</p>
+<p>Every analysis from <em>*mas</em> to <em>*Vmš</em> to <em>*-so</em> all rely on some sort of assumption
+and a clear conclusion cannot be drawn from the available evidence on the potential
+original &lsquo;one&rsquo; numeral.</p>
+<h1 id="-nine">(?) &rsquo;nine&rsquo;</h1>
+<p>The reconstructed Proto-Mongolic numeral for &rsquo;nine&rsquo; is <em>*yersün</em> which may or
+may not be related to the Khitan numeral <em>*is(i)</em>. The biggest obstacle in
+connecting the two etymologically is the <em>*-r</em> suffix present in the Mongolic
+numeral, confirmed by the Nantoq subdialect of Tongren Baoan as well as the numeral
+for &rsquo;ninety&rsquo; <em>*yeren</em>. Dropping of the <em>-r</em> would not makes sense considering
+the fact that Khitan typically preserves them in other numerals with the same suffix
+such as in</p>
+<blockquote>
+<p><em>*dur</em> &lsquo;four&rsquo; compared to Mongolic <em>*dörben</em></p>
+<p><em>*gur</em> &rsquo;three&rsquo; compared to Mongolic <em>*gurban</em></p>
+</blockquote>
+<p>Even more intriguing is the fact that the Jurchen loan for
+&rsquo;nineteen&rsquo; is <em>*onyo.xon</em>, which has no parallels in any known Mongolic or
+Para-Mongolic language. The first element of <em>*o-</em> is tentatively seen as a prefix
+meaning &lsquo;one&rsquo; to the Para-Mongolic dialect numeral <em>*nyo</em> &rsquo;eight&rsquo; which is
+probably related to the Mongolic <em>*nayman</em>. The <em>*o-</em> prefix can also be connected to
+the first element in the previously discussed <em>*omšo</em>, in which case it is possible
+that <em>*o-</em> is the contraction of <em>*omš</em> &lsquo;one&rsquo;.</p>
+<p>However this is further complicated
+by other Tungusic data which shows <em>kuniku</em> &rsquo;nineteen&rsquo; and <em>kuniu</em> &lsquo;id.&rsquo; in Alchuka and
+Jing Manchu respectively. If it is the case that these languages preserved an
+archaic <em>*k-</em> then it suggests a completely unknown numeral for &rsquo;nine&rsquo; which may
+have had the shape of <em>*kUniU</em>.</p>
+<p>As it stands, if <em>*yersün</em> is truly an innovation then reconstructing the original
+numeral is currently impossible.</p>
+<h1 id="sources">Sources</h1>
+<ul>
+<li>
+<p>Hölzl, Andreas. &ldquo;New evidence on Para-Mongolic numerals.&rdquo; Suomalais-Ugrilaisen Seuran Aikakauskirja 2017, no. 96 (2017): 97-113.</p>
+</li>
+<li>
+<p>Janhunen, Juha. &ldquo;Para-Mongolic.&rdquo; The Mongolic Languages 391 (2003): 402.</p>
+</li>
+<li>
+<p>Janhunen, Juha A. &ldquo;Khitan: Understanding the language behind the scripts.&rdquo; Scripta 4 (2012): 107-132.</p>
+</li>
+<li>
+<p>Kane, Daniel. &ldquo;The Kitan language and script.&rdquo; In The Kitan Language and Script. Brill, 2008.</p>
+</li>
+<li>
+<p>Nugteren, Hans. Mongolic phonology and the Qinghai-Gansu languages. Leiden University, 2011.</p>
+</li>
+<li>
+<p>Róna-Tas, András. &ldquo;Khitan Studies I. The Graphs of the Khitan Small Script: 1. General Remarks, Dotted Graphs, Numerals.&rdquo; Acta Orientalia Academiae Scientiarum Hungaricae 69, no. 2 (2016): 117-138.</p>
+</li>
+<li>
+<p>Shimunek, Andrew. &ldquo;Early Serbi-Mongolic–Tungusic Lexical Contact: Jurchen Numerals from the 室韋 Shirwi (Shih-wei) in North China.&rdquo; In Philology of the Grasslands, pp. 331-346. Brill, 2018.</p>
+</li>
+<li>
+<p>Shimunek, Andrew. Languages of ancient Southern Mongolia and North China: A historical-comparative study of the Serbi or Xianbei branch of the Serbi-Mongolic language family, with an analysis of Northeastern Frontier Chinese and Old Tibetan phonology. BoD–Books on Demand, 2015.</p>
+</li>
+</ul>
+
+                    
+                    <HR width="100%" id="EOF">
+		    <p style="color:#777;">Last modified on 2024-04-08</p>
+                    
+                </div>
+            </div>
+            
+            
+            <nav class="post-pagination">
+
+                
+                <a class="newer-posts">
+			Next<br>No newer posts.
+                </a>
+                
+                
+                
+                <a class="older-posts" href="/research/mongolian_democracy/">
+			Previous<br>Mongolian Democracy Compared to Central Asia Post-Independence
+                </a>
+                
+            </nav>
+            <div class="post-comment-wrapper">
+                
+
+
+
+
+
+
+
+
+
+
+
+
+            </div>
+        </div>
+    </div>
+
+
+                    </div>
+            </div><div id="sideContainer" class="side-container">
+    
+    <a class="a-block nav-head false" href="https://dulguun.xyz/">
+    
+        <div class="nav-title">
+            Dulguun Gantumur
+        </div>
+        
+    </a>
+
+    <div class="nav-link-list">
+        
+        
+            
+            
+            
+                
+            
+            
+            
+            <a class="a-block nav-link-item active" href="/posts">
+                Posts
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/tags">
+                Tags
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/research">
+                Research
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/about">
+                About
+            </a>
+            
+        
+    </div>
+
+    
+
+    <div class="nav-footer">
+        
+Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> by <a href="https://risehere.net/">Rise</a>
+<br>
+Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopener">Makito</a>'s <a href="https://github.com/SumiMakito/hexo-theme-journal/" target="_blank" rel="noreferrer noopener">Journal.</a> <br>
+<br>
+
+&copy;
+	
+	2024 Dulguun Gantumur
+	
+
+    </div>
+    
+</div><div id="extraContainer" class="extra-container">
+    <div class="toc-wrapper">
+        
+
+        
+        <div class="toc">
+
+
+	<div class="toc-content">
+	
+		
+		
+		
+		<center>- CATALOG -</center>
+		
+		
+		<ul>
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%c7%b0ir---two" class="nav-ǰir---two">
+									*ǰir - ’two&#39;
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#nil---six" class="nav-nil---six">
+									*nil - ‘six’
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#-one" class="nav--one">
+									(?) ‘one’
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#-nine" class="nav--nine">
+									(?) ’nine’
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#sources" class="nav-sources">
+									Sources
+								</a>
+							</li>
+						
+						
+					
+				
+			
+		</ul>
+	</div>
+
+</div>
+        
+    </div>
+    <div class="pagination">
+        <a id="globalBackToTop" class="pagination-action animated-visibility" href="#top"
+            :class="{ invisible: scrollY == 0 }">
+            <i class="material-icons pagination-action-icon">
+                keyboard_arrow_up
+            </i>
+        </a>
+        
+        <a type="button" class="pagination-action" id="darkModeToggleButton">
+            <span class="material-icons pagination-action-icon" id="darkModeToggleIcon">
+                dark_mode
+            </span>
+        </a>
+        
+        
+    </div>
+</div>
+
+<div id="single-column-footer">
+Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> by <a href="https://risehere.net/">Rise</a>
+<br>
+Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopener">Makito</a>'s <a href="https://github.com/SumiMakito/hexo-theme-journal/" target="_blank" rel="noreferrer noopener">Journal.</a> <br>
+<br>
+
+&copy;
+	
+	2024 Dulguun Gantumur
+	
+</div>
+            </div>
+    
+    <script src="/js/journal.js"></script></body>
+</html>
