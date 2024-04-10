@@ -1,26 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>US on Dulguun Gantumur</title>
-    <link>https://dulguun.xyz/tags/us/</link>
-    <description>Recent content in US on Dulguun Gantumur</description>
+    <title>Universality on Dulguun Gantumur</title>
+    <link>https://dulguun.xyz/tags/universality/</link>
+    <description>Recent content in Universality on Dulguun Gantumur</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 10 Apr 2024 00:28:49 -0400</lastBuildDate>
-    <atom:link href="https://dulguun.xyz/tags/us/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://dulguun.xyz/tags/universality/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Legitimacy as a Body-Without-Organs and the Failures of American Foreign Policy in the Middle East</title>
       <link>https://dulguun.xyz/posts/bodies_without_organs/</link>
       <pubDate>Wed, 10 Apr 2024 00:28:49 -0400</pubDate>
       <guid>https://dulguun.xyz/posts/bodies_without_organs/</guid>
       <description>The primary unit of international relations is the state. The state forms with the monopolization of legitimate violence in an area. The concept of legitimacy is imagined here as the Deleuzian concept of a body-without-organs. The organs form the function of the use of legitimacy. The organization of organs upon the body, I call a monad, borrowing from functional programming.&#xA;The monad arises in a rhizomatic way from sites of mobilization, on legitimacy, such as may be created by power vacuums, a line of flight, and finds in it a potential for mobilization and subjects them to the monad.</description>
-    </item>
-    <item>
-      <title>Critique of Asian Identity in the US</title>
-      <link>https://dulguun.xyz/posts/asianidentity/</link>
-      <pubDate>Sat, 15 Oct 2022 00:00:00 +0000</pubDate>
-      <guid>https://dulguun.xyz/posts/asianidentity/</guid>
-      <description>Asia is a Western notion. Etymologically it is theorized to have come from a Hittite word meaning “Northwest Anatolia” which was eventually borrowed into Greek from where it spread throughout Europe. From its root, it inherently comes from the perspective of the West looking East. Asia is not a concept born out of Asia.&#xA;This idea of “Asia” eventually found its way to the U.S. where it became a racialized concept denoting everyone hailing from the massive continent of Asia as they imagined it.</description>
     </item>
   </channel>
 </rss>
