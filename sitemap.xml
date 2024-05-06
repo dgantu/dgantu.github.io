@@ -2,13 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://dulguun.xyz/</loc>
+    <lastmod>2024-05-06T08:16:56-04:00</lastmod>
+  </url><url>
+    <loc>https://dulguun.xyz/research/cybernetic_bri/</loc>
+    <lastmod>2024-05-06T08:16:56-04:00</lastmod>
+  </url><url>
+    <loc>https://dulguun.xyz/research/</loc>
+    <lastmod>2024-05-06T08:16:56-04:00</lastmod>
+  </url><url>
     <loc>https://dulguun.xyz/tags/body-without-organs/</loc>
     <lastmod>2024-04-10T00:28:49-04:00</lastmod>
   </url><url>
     <loc>https://dulguun.xyz/tags/deleuze/</loc>
-    <lastmod>2024-04-10T00:28:49-04:00</lastmod>
-  </url><url>
-    <loc>https://dulguun.xyz/</loc>
     <lastmod>2024-04-10T00:28:49-04:00</lastmod>
   </url><url>
     <loc>https://dulguun.xyz/tags/international-relations/</loc>
@@ -60,9 +66,6 @@
     <lastmod>2024-04-08T18:39:03-04:00</lastmod>
   </url><url>
     <loc>https://dulguun.xyz/research/mongolian_democracy/</loc>
-    <lastmod>2023-12-06T17:06:55-04:00</lastmod>
-  </url><url>
-    <loc>https://dulguun.xyz/research/</loc>
     <lastmod>2023-12-06T17:06:55-04:00</lastmod>
   </url><url>
     <loc>https://dulguun.xyz/posts/self_study/</loc>

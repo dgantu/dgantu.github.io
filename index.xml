@@ -6,9 +6,268 @@
     <description>Recent content on Dulguun Gantumur</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 10 Apr 2024 00:28:49 -0400</lastBuildDate>
+    <lastBuildDate>Mon, 06 May 2024 08:16:56 -0400</lastBuildDate>
     
         <atom:link href="https://dulguun.xyz/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+        <item>
+        <title>Feedback Loop of the Chinese Regulatory State in the Belt and Road Initiative</title>
+        <link>https://dulguun.xyz/research/cybernetic_bri/</link>
+        <pubDate>Mon, 06 May 2024 08:16:56 -0400</pubDate>
+        
+        <guid>https://dulguun.xyz/research/cybernetic_bri/</guid>
+        <description>Dulguun Gantumur https://dulguun.xyz/research/cybernetic_bri/ -&lt;script type=&#34;text/javascript&#34; src= &#39;/js/pdf-js/build/pdf.js&#39;&gt;&lt;/script&gt;
+
+&lt;style&gt;
+  #embed-pdf-container {
+    position: relative;
+    width: 100%;
+    height: auto;
+    min-height: 20vh;
+     
+  }
+  
+  .pdf-canvas {
+    border: 1px solid black;
+    direction: ltr;
+    width: 100%;
+    height: auto;
+    display: none;
+  }
+  
+  #the-canvas {
+    border: 1px solid black;
+    direction: ltr;
+    width: 100%;
+    height: auto;
+    display: none;
+  }
+  
+  
+  .pdf-loadingWrapper {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 350px;
+  }
+  
+  .pdf-loading {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border: 3px solid #d2d0d0;;
+    border-radius: 50%;
+    border-top-color: #383838;
+    animation: spin 1s ease-in-out infinite;
+    -webkit-animation: spin 1s ease-in-out infinite;
+  }
+  
+  
+  
+  
+  
+  #overlayText {
+    word-wrap: break-word;
+    display: grid;
+    justify-content: end;
+  }
+  
+  #overlayText a {
+    position: relative;
+    top: 10px;
+    right: 4px;
+    color: #000;
+    margin: auto;
+    background-color: #eeeeee;
+    padding: 0.3em 1em;
+    border: solid 2px;
+    border-radius: 12px;
+    border-color: #00000030;
+    text-decoration: none;
+  }
+  
+  #overlayText svg {
+    height: clamp(1em, 2vw, 1.4em);
+    width:  clamp(1em, 2vw, 1.4em);
+  }
+  
+  
+  
+  @keyframes spin {
+    to { -webkit-transform: rotate(360deg); }
+  }
+  @-webkit-keyframes spin {
+    to { -webkit-transform: rotate(360deg); }
+  }
+  &lt;/style&gt;&lt;div class=&#34;embed-pdf-container&#34; id=&#34;embed-pdf-container-371935b7&#34;&gt;
+    &lt;div class=&#34;pdf-loadingWrapper&#34; id=&#34;pdf-loadingWrapper-371935b7&#34;&gt;
+        &lt;div class=&#34;pdf-loading&#34; id=&#34;pdf-loading-371935b7&#34;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div id=&#34;overlayText&#34;&gt;
+      &lt;a href=&#34;./cybernetic_bri.pdf&#34; aria-label=&#34;Download&#34; download&gt;
+        &lt;svg aria-hidden=&#34;true&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 18 18&#34;&gt;
+            &lt;path d=&#34;M9 13c.3 0 .5-.1.7-.3L15.4 7 14 5.6l-4 4V1H8v8.6l-4-4L2.6 7l5.7 5.7c.2.2.4.3.7.3zm-7 2h14v2H2z&#34; /&gt;
+        &lt;/svg&gt;
+      &lt;/a&gt;
+    &lt;/div&gt;
+    &lt;canvas class=&#34;pdf-canvas&#34; id=&#34;pdf-canvas-371935b7&#34;&gt;&lt;/canvas&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;pdf-paginator&#34; id=&#34;pdf-paginator-371935b7&#34;&gt;
+    &lt;button id=&#34;pdf-prev-371935b7&#34;&gt;Previous&lt;/button&gt;
+    &lt;button id=&#34;pdf-next-371935b7&#34;&gt;Next&lt;/button&gt; &amp;nbsp; &amp;nbsp;
+    &lt;span&gt;
+      &lt;span class=&#34;pdf-pagenum&#34; id=&#34;pdf-pagenum-371935b7&#34;&gt;&lt;/span&gt; / &lt;span class=&#34;pdf-pagecount&#34; id=&#34;pdf-pagecount-371935b7&#34;&gt;&lt;/span&gt;
+    &lt;/span&gt;
+    &lt;a class=&#34;pdf-source&#34; id=&#34;pdf-source-371935b7&#34; href=&#34;./cybernetic_bri.pdf&#34;&gt;[pdf]&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;noscript&gt;
+View the PDF file &lt;a class=&#34;pdf-source&#34; id=&#34;pdf-source-noscript-371935b7&#34; href=&#34;./cybernetic_bri.pdf&#34;&gt;here&lt;/a&gt;.
+&lt;/noscript&gt;
+
+&lt;script type=&#34;text/javascript&#34;&gt;
+    (function(){
+    var url = &#39;.\/cybernetic_bri.pdf&#39;;
+
+    var hidePaginator = &#34;true&#34; === &#34;true&#34;;
+    var hideLoader = &#34;true&#34; === &#34;true&#34;;
+    var selectedPageNum = parseInt(&#34;&#34;) || 1;
+
+    
+    var pdfjsLib = window[&#39;pdfjs-dist/build/pdf&#39;];
+
+    
+    if (pdfjsLib.GlobalWorkerOptions.workerSrc == &#39;&#39;)
+      pdfjsLib.GlobalWorkerOptions.workerSrc = &#34;https:\/\/dulguun.xyz\/&#34; + &#39;js/pdf-js/build/pdf.worker.js&#39;;
+
+    
+    var pdfDoc = null,
+        pageNum = selectedPageNum,
+        pageRendering = false,
+        pageNumPending = null,
+        scale = 3,
+        canvas = document.getElementById(&#39;pdf-canvas-371935b7&#39;),
+        ctx = canvas.getContext(&#39;2d&#39;),
+        paginator = document.getElementById(&#34;pdf-paginator-371935b7&#34;),
+        loadingWrapper = document.getElementById(&#39;pdf-loadingWrapper-371935b7&#39;);
+
+
+    
+    showPaginator();
+    showLoader();
+
+    
+
+    function renderPage(num) {
+      pageRendering = true;
+      
+      pdfDoc.getPage(num).then(function(page) {
+        var viewport = page.getViewport({scale: scale});
+        canvas.height = viewport.height;
+        canvas.width = viewport.width;
+
+        
+        var renderContext = {
+          canvasContext: ctx,
+          viewport: viewport
+        };
+        var renderTask = page.render(renderContext);
+
+        
+        renderTask.promise.then(function() {
+          pageRendering = false;
+          showContent();
+
+          if (pageNumPending !== null) {
+            
+            renderPage(pageNumPending);
+            pageNumPending = null;
+          }
+        });
+      });
+
+      
+      document.getElementById(&#39;pdf-pagenum-371935b7&#39;).textContent = num;
+    }
+
+    
+
+    function showContent() {
+      loadingWrapper.style.display = &#39;none&#39;;
+      canvas.style.display = &#39;block&#39;;
+    }
+
+    
+
+    function showLoader() {
+      if(hideLoader) return
+      loadingWrapper.style.display = &#39;flex&#39;;
+      canvas.style.display = &#39;none&#39;;
+    }
+
+    
+
+    function showPaginator() {
+      if(hidePaginator) return
+      paginator.style.display = &#39;block&#39;;
+    }
+
+    
+
+    function queueRenderPage(num) {
+      if (pageRendering) {
+        pageNumPending = num;
+      } else {
+        renderPage(num);
+      }
+    }
+
+    
+
+    function onPrevPage() {
+      if (pageNum &lt;= 1) {
+        return;
+      }
+      pageNum--;
+      queueRenderPage(pageNum);
+    }
+    document.getElementById(&#39;pdf-prev-371935b7&#39;).addEventListener(&#39;click&#39;, onPrevPage);
+
+    
+
+    function onNextPage() {
+      if (pageNum &gt;= pdfDoc.numPages) {
+        return;
+      }
+      pageNum++;
+      queueRenderPage(pageNum);
+    }
+    document.getElementById(&#39;pdf-next-371935b7&#39;).addEventListener(&#39;click&#39;, onNextPage);
+
+    
+
+    pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
+      pdfDoc = pdfDoc_;
+      var numPages = pdfDoc.numPages;
+      document.getElementById(&#39;pdf-pagecount-371935b7&#39;).textContent = numPages;
+
+      
+      if(pageNum &gt; numPages) {
+        pageNum = numPages
+      }
+
+      
+      renderPage(pageNum);
+    });
+    })();
+&lt;/script&gt;
+
+- https://dulguun.xyz/research/cybernetic_bri/ - </description>
+        </item>
     
     
     
@@ -1145,23 +1404,6 @@ View the PDF file &lt;a class=&#34;pdf-source&#34; id=&#34;pdf-source-noscript-c
 &lt;/li&gt;
 &lt;/ul&gt;
 - https://dulguun.xyz/posts/factionstaiwan/ - </description>
-        </item>
-    
-    
-    
-        <item>
-        <title>中國臺灣國語發音差異</title>
-        <link>https://dulguun.xyz/posts/standard_chinese/</link>
-        <pubDate>Sat, 07 Jan 2023 21:49:37 -0400</pubDate>
-        
-        <guid>https://dulguun.xyz/posts/standard_chinese/</guid>
-        <description>Dulguun Gantumur https://dulguun.xyz/posts/standard_chinese/ -&lt;p&gt;為何臺灣國語與中國普通話有他們現在的差異?&lt;/p&gt;
-&lt;p&gt;每人都知道中國的中文與臺灣的中文不同，最明顯的是在臺灣人們的翹舌音和平舌音的差別不大。然而這樣的差別不是我今日討論的，而是為何兩者的標準中文有現今的差異。簡單的解釋是「就是因為它們分開那麼多年，肯定有一些差別」，然而如此解釋還不完整。因此我要提出更完整的解釋。&lt;/p&gt;
-&lt;p&gt;首先，國語和普通話何時分開了？標準國語的發音1928年出現了，當時的語言學家以北京音為基礎，不過他們也為了訂一些字標準音開會了。這些語言學家注重韻書和音變規律訂發音。其次，1949以後，中國已經有一個新政府。這個共產黨訂定國音時也以北京話為基底，不過卻更注重北方的口語發音。
-舉一個例子，「微」這個字的古代發音國際音標上是「/mʉi/」。假如便用語音演變的規律，現代官話的發音應該是「ㄨㄟˊ」，因而民國訂定的發音是「ㄨㄟˊ」。但北方方言將字的二聲變成一聲，因此中共的標準音卻是「ㄨㄟ」。
-1949以來，臺灣與中國的歷史也分開了，所以他們的語言也發展得不同。有最大差異的地方是科技，因為很多從國外來的技術詞必須要被翻譯，而且既然兩者已經分開了，他們以不同的詞翻譯。比如，在中國標準詞「網絡」，但在臺灣他們說「網路」，或者是臺灣的「軟體」是中國的「軟件」．
-由此可見臺灣與中國的中文差異歷史又長又复杂．&lt;/p&gt;
-- https://dulguun.xyz/posts/standard_chinese/ - </description>
         </item>
     
     
